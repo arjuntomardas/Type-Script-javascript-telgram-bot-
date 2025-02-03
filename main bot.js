@@ -1,5 +1,5 @@
 // TELEGRAM_TOKEN और TELEGRAM_API_URL को केवल एक बार डिक्लेयर करें
-const TELEGRAM_TOKEN = "7731835843:AAE9FCDDtbHaAClf2MSM18EfzySba6ebocg"; // अपने बॉट का टोकन यहां डालें
+const TELEGRAM_TOKEN = "your_bot_token"; // अपने बॉट का टोकन यहां डालें
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`; // API URL
 
 // Webhook सेट करने का फंक्शन
@@ -220,8 +220,7 @@ const FIELD_SYNONYMS = {
 
 };
 
-
- const regexCache = {};
+const regexCache = {};
 
 // Function to create regex pattern for each field with boundaries
 function createFieldRegex(fieldName, allFields) {
@@ -291,12 +290,11 @@ function parseOrderData(text) {
 
 // Test Input (Multiple Values for Same Field)
 const testText = `
-New Order:
-Name: Sanju Tomar
-Address: Purani Chhawani, Gwalior
-Name: Ramesh Yadav
-Pincode: 474010
-District: Gwalior
+order:
+Name: your name 
+Address: 123 st nagar indore 
+Pincode: 452010
+District: indore 
 State: Madhya Pradesh
 Phone: 9876543210
 Order: 2 Pizza
