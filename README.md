@@ -1,4 +1,4 @@
-# Type-Script-javascript-Based-telgram-bot-
+# Type-Script-javascript-Based-telegram-Bot-
 Telegram Advance Order Processing Bot
 It has been explained in both the languages, first in Hindi and then in English.
 
